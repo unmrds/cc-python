@@ -1,5 +1,7 @@
 # Programming Concepts with Python - the Code & Coffee version
 
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/unmrds/cc-python.git/master)
+
 This collection of materials was developed for the University of New Mexico Libraries' *Code & Coffee* workshop series
 to provide a high-level introduction to programming concepts illustrated with the Python programming language. The
 workshop content is contained in a collection of Jupyter Notebooks:
