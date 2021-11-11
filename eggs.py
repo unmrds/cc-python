@@ -8,52 +8,49 @@ csv_content = []
 # open and loop through each line of the csv file to populate our data file
 with open('aaj1945_DataS1_Egg_shape_by_species_v2.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file)
-    lineNo = 0
     for row in csv_reader:             # process each row of the csv file
         csv_content.append(row)
-        if lineNo < 3:                 # print out a few lines of data for our inspection
-            print(row)
-        lineNo += 1
 
-# create some empty lists that we will fill with values for each column of data
-order = []
-family = []
-species = []
-asymmetry = []
-ellipticity = []
-avglength = []
-        
-# for each row of data in our dataset write a set of values into the lists of column values
-for item in csv_content:
-    order.append(item['\ufeffOrder'])
-    family.append(item['Family'])
-    species.append(item['Species'])
-    
-    # deal with issues 
-    try:
-        asymmetry.append(float(item['Asymmetry']))
-    except:
-        asymmetry.append(-9999)
-        
-    try:
-        ellipticity.append(float(item['Ellipticity']))
-    except:
-        ellipticity.append(-9999)
-    
-    try:
-        avglength.append(float(item['AvgLength (cm)']))
-    except:
-        avglength.append(-9999)
+print("keys: " + ", ".join(csv_content[0].keys()))
 
 print()
 print()
+
+# define a function that can extract a named column from a named list of dictionaries
+def extract_column(source_list, source_column):
+    new_list = []
+    for item in source_list:
+        try:
+            new_list.append(item[source_column])
+        except:
+            new_list.append(None)
+    print(source_column + ": " + ", ".join(new_list[0:3]))
+    return(new_list)
+            
+order = extract_column(csv_content, 'Order')
+family = extract_column(csv_content, 'Family')
+species = extract_column(csv_content, 'Species')
+asymmetry = extract_column(csv_content, 'Asymmetry')
+ellipticity = extract_column(csv_content, 'Ellipticity')
+avgLength = extract_column(csv_content, 'AvgLength (cm)')
+noImages = extract_column(csv_content, 'Number of images')
+noEggs = extract_column(csv_content, 'Number of eggs')
+
+print()
+print(order[0:3])
+print(family[0:3])
+print(species[0:3])
+print(asymmetry[0:3])
+print(ellipticity[0:3])
+print(avgLength[0:3])
+print(noImages[0:3])
+print(noEggs[0:3])
 
 # Calculate and print some statistics
-mean_asymmetry = sum(asymmetry)/len(asymmetry)
+print()
+mean_asymmetry = sum(map(float, asymmetry))/len(asymmetry)
 print("Mean Asymmetry: ", str(mean_asymmetry))
-mean_ellipticity = sum(ellipticity)/len(ellipticity)
+mean_ellipticity = sum(map(float, ellipticity))/len(ellipticity)
 print("Mean Ellipticity: ", str(mean_ellipticity))
-mean_avglength = sum(avglength)/len(avglength)
+mean_avglength = sum(map(float, avgLength))/len(avgLength)
 print("Mean Average Length: ", str(mean_avglength))
-
-# What's wrong with these results? What would you do next to fix the problem?
