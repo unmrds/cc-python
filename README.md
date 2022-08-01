@@ -1,5 +1,7 @@
 # Programming Concepts with Python - the Code & Coffee version
 
+[![DOI](https://zenodo.org/badge/93531540.svg)](https://zenodo.org/badge/latestdoi/93531540)
+
 ## Pre-workshop setup
 
 We will be using the Jupyter Notebook environment for this workshop. We recommend you install Jupyter notebook and the current version of python 3 (3.8 in February 2021) through the [Anaconda Individual Edition](https://www.anaconda.com/products/individual) download and installation as it provides a complete set of tools for running and managing a scientific python work environment on your system.
