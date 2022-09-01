@@ -24,3 +24,9 @@ Other samples from previous workshops:
 * Surname analysis example: [Name_Data.ipynb](https://github.com/unmrds/cc-python/blob/master/Name_Data.ipynb)
 * Library shelf space analysis example: [Space Analysis.ipynb](https://github.com/unmrds/cc-python/blob/master/Space%20Analysis%20.ipynb)
 * IR Keywords Versus IR "Aboutness" example [no longer functional due to decommissioning of UNM DSpace instance]: [IR Keywords Versus IR "Aboutness".ipynb](https://github.com/unmrds/cc-python/blob/master/IR%20Keywords%20Versus%20IR%20%22Aboutness%22.ipynb)
+
+#### Dataset citation
+
+The baby name data tutorial uses an adapted subset of the following:
+
+> Social Security Administration (2022). "Baby Names from Social Security Card Applications - National Data." Accessed from <https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data>
