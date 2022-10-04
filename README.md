@@ -27,6 +27,6 @@ Other samples from previous workshops:
 
 #### Dataset citation
 
-The baby name data tutorial uses an adapted subset of the following:
+The baby name data tutorial uses a modified subset of the following:
 
 > Social Security Administration (2022). "Baby Names from Social Security Card Applications - National Data." Accessed from <https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data>
