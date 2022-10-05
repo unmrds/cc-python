@@ -13,17 +13,18 @@ workshop content is contained in a collection of Jupyter Notebooks:
 Session 1 (2 hours)
 
 * Conceptual Overview: [1.1-Programming Concepts.ipynb](https://github.com/unmrds/cc-python/blob/master/1.1-Programming%20Concepts.ipynb)
-* Basic Programming Operations: [1.2-The Basics.ipynb](https://github.com/unmrds/cc-python/blob/master/1.2-The%20Basics.ipynb)
+* Basic Programming Operations: [1.2-The Basics.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/beowulf_babynames/1.2-The%20Basics.ipynb)
 
 Session 2 (2 hours)
 
-* Functions: [2.1-Functions.ipynb](https://github.com/unmrds/cc-python/blob/master/2.1-Functions.ipynb)
+* Functions: [2.1-Functions.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/bird_eggs/2.1-Functions.ipynb)
+
+As the workshop has evolved over time, additional tutorials covering these same topics have been developed. The _tutorials_ directory in this repository includes those. Tutorials are organized according to the dataset used.
 
 Other samples from previous workshops:
 
-* Surname analysis example: [Name_Data.ipynb](https://github.com/unmrds/cc-python/blob/master/Name_Data.ipynb)
-* Library shelf space analysis example: [Space Analysis.ipynb](https://github.com/unmrds/cc-python/blob/master/Space%20Analysis%20.ipynb)
-* IR Keywords Versus IR "Aboutness" example [no longer functional due to decommissioning of UNM DSpace instance]: [IR Keywords Versus IR "Aboutness".ipynb](https://github.com/unmrds/cc-python/blob/master/IR%20Keywords%20Versus%20IR%20%22Aboutness%22.ipynb)
+* Surname analysis example: [Name_Data.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/census_surnames/Name_Data.ipynb)
+* Library shelf space analysis example: [Space Analysis.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/shelf_space/Space%20Analysis%20.ipynb)
 
 #### Dataset citation
 
