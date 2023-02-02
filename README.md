@@ -13,7 +13,7 @@ workshop content is contained in a collection of Jupyter Notebooks:
 Session 1 (2 hours)
 
 * Conceptual Overview: [1.1-Programming Concepts.ipynb](https://github.com/unmrds/cc-python/blob/master/1.1-Programming%20Concepts.ipynb)
-* Basic Programming Operations: [1.2-The Basics.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/beowulf_babynames/1-Intro-tutorial-babyname-data.ipynb)
+* Basic Programming Operations: [1-Intro-tutorial-babyname-data.ipynb](https://github.com/unmrds/cc-python/blob/master/tutorials/beowulf_babynames/1-Intro-tutorial-babyname-data.ipynb)
 
 Session 2 (2 hours)
 
